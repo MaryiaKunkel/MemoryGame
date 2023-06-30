@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1100px;
+  width: 550px;
   height: 100%;
   position: relative;
   margin: auto;
@@ -15,58 +15,58 @@ body {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #game div {
   border: 1px solid black;
-  width: 170px;
-  height: 170px;
+  width: 85px;
+  height: 85px;
   margin: 20px 10px 0 10px;
   display: inline-block;
   transition: transform 0.5s ease;
-  border-radius: 15px;
+  border-radius: 8px;
   background-image: url('https://media.graphassets.com/CqNntlMDRgKm9mYPIRNC');
   background-size: cover;
   background-position: center;
 }
 
 input[type=button] {
-  height: 50px;
-  width: 300px;
-  font-size: 30px;
+  height: 25px;
+  width: 150px;
+  font-size: 15px;
   position: absolute;
-  top: 40px;
+  top: 20px;
   right: 0;
 }
 
 h1 {
   margin: 0;
-  font-size: 70px;
+  font-size: 35px;
   position: absolute;
   left: 0;
-  top: 20px;
+  top: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #yourScore, #bestScore {
   position: absolute;
-  bottom: -70px;
-  left: 570px;
+  bottom: -35px;
+  left: 275px;
   text-align: left;
   font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 50px;
+  font-size: 25px;
   margin-left: 50px;
 
 }
 
 #yourScore {
-  bottom: -100px;
+  bottom: -50px;
 }
 
 #bestScore {
-  bottom: -150px;
+  bottom: -75px;
 }
 
 .flipped {
@@ -78,29 +78,29 @@ h1 {
 
 
 #yourScore {
-  bottom: -100px;
+  bottom: -50px;
 }
 
 #yourScoreText {
-  bottom: -90px;
+  bottom: -45px;
 }
 
 #bestScore {
-  bottom: -150px;
+  bottom: -75px;
 }
 
 #bestScoreText {
-  bottom: -140px;
+  bottom: -70px;
 }
 
 #bestScoreText, #yourScoreText {
   text-align: right;
   font-weight: bold;
   position: absolute;
-  left: 370px;
-  font-size: 30px;
+  left: 185px;
+  font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 
